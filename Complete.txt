@@ -1,0 +1,82 @@
+-> Make the plus/add button work
+-> Make a My Profile drop down
+    -> My Orders
+    -> Terms & Conditions
+    -> Logout
+-> Make the cart
+
+
+
+
+<div class="w-[0.1%] h-[110%] flex right-[78%] bg-black absolute"></div>
+            <!-- First Row -->
+            <div class="flex gap-7">
+                <div class="w-48">
+                    <img src="../images/1bag.png" alt="" class="bg-cover">
+                    <div class="h-48"></div>
+                    <div class="bg-red-500 p-4 flex justify-between items-center text-white">
+                        <span>Backpack</span>
+                        <span>$24.99</span>
+                        <button class="bg-white text-black rounded-full w-6 h-6 flex items-center justify-center">+</button>
+                    </div>
+                </div>
+                <div class="bg-yellow-400 w-48">
+                    <div class="h-48"></div>
+                    <div class="bg-red-500 p-4 flex justify-between items-center text-white">
+                        <span>Clinge Bag</span>
+                        <span>$24.99</span>
+                        <button class="bg-white text-black rounded-full w-6 h-6 flex items-center justify-center">+</button>
+                    </div>
+                </div>
+                <div class="bg-yellow-400 w-48">
+                    <div class="h-48"></div>
+                    <div class="bg-red-500 p-4 flex justify-between items-center text-white">
+                        <span>Travel Bag</span>
+                        <span>$24.99</span>
+                        <button class="bg-white text-black rounded-full w-6 h-6 flex items-center justify-center">+</button>
+                    </div>
+                </div>
+                <div class="bg-yellow-400 w-48">
+                    <div class="h-48"></div>
+                    <div class="bg-red-500 p-4 flex justify-between items-center text-white">
+                        <span>Laptop Bag</span>
+                        <span>$24.99</span>
+                        <button class="bg-white text-black rounded-full w-6 h-6 flex items-center justify-center">+</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Second Row -->
+            <div class="flex py-6 gap-7">
+                <div class="bg-yellow-400 w-48">
+                    <div class="h-48"></div>
+                    <div class="bg-red-500 p-4 flex justify-between items-center text-white">
+                        <span>Strap Bag</span>
+                        <span>$24.99</span>
+                        <button class="bg-white text-black rounded-full w-6 h-6 flex items-center justify-center">+</button>
+                    </div>
+                </div>
+                <div class="bg-yellow-400 w-48">
+                    <div class="h-48"></div>
+                    <div class="bg-red-500 p-4 flex justify-between items-center text-white">
+                        <span>Travel Bag</span>
+                        <span>$24.99</span>
+                        <button class="bg-white text-black rounded-full w-6 h-6 flex items-center justify-center">+</button>
+                    </div>
+                </div>
+                <div class="bg-yellow-400 w-48">
+                    <div class="h-48"></div>
+                    <div class="bg-red-500 p-4 flex justify-between items-center text-white">
+                        <span>Clinge Bag</span>
+                        <span>$24.99</span>
+                        <button class="bg-white text-black rounded-full w-6 h-6 flex items-center justify-center">+</button>
+                    </div>
+                </div>
+                <div class="bg-yellow-400 w-48">
+                    <div class="h-48"></div>
+                    <div class="bg-red-500 p-4 flex justify-between items-center text-white">
+                        <span>College Bag</span>
+                        <span>$24.99</span>
+                        <button class="bg-white text-black rounded-full w-6 h-6 flex items-center justify-center">+</button>
+                    </div>
+                </div>
+            </div>

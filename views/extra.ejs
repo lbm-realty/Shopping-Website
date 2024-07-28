@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+
+    <!-- Fixed Header -->
+    <div class="fixed top-0 left-0 right-0 bg-white z-10 p-4 shadow">
+    <div class="container mx-auto flex justify-between items-center">
+        <h1 class="text-xl font-serif">Shop@LBM</h1>
+        <div>
+        <label for="sort" class="mr-2">Sort by:</label>
+        <select id="sort" class="border rounded p-2">
+            <option>Popular</option>
+            <option>Old Fashioned</option>
+            <!-- Add more sorting options as needed -->
+        </select>
+        </div>
+    </div>
+    </div>
+
+    <!-- Sidebar and Content -->
+    <div class="container flex mt-20">
+
+    <!-- Sidebar -->
+    <div class="w-1/4 flex">
+        <div class="font-sans">
+        <h2 class="font-bold mb-2 ml-10 py-10">New Collection</h2>
+        <h2 class="font-bold mb-2 ml-10 py-3">All Products</h2>
+        <h2 class="font-bold mb-2 ml-10 py-3">Discounted Products</h2>
+        </div>
+        <div>
+        <h3 class="font-sans">Filter by:</h3>
+        <p class="mb-2">Availability</p>
+        <p class="mb-2">Discount</p>
+        </div>
+    </div>
+
+    <!-- Product Grid -->
+    <div class="w-3/4 grid grid-cols-3 gap-4 p-4">
+        <!-- Repeat this block for each product -->
+        <div class="bg-yellow-400 p-4">
+        <div class="h-32"></div>
+        <div class="bg-red-500 p-4 flex justify-between items-center text-white">
+            <span>Clinge Bag</span>
+            <span>₹ 1200</span>
+            <button class="bg-white text-black rounded-full w-6 h-6 flex items-center justify-center">+</button>
+        </div>
+        </div>
+        <div class="bg-yellow-400 p-4">
+        <div class="h-32"></div>
+        <div class="bg-red-500 p-4 flex justify-between items-center text-white">
+            <span>Clinge Bag</span>
+            <span>₹ 1200</span>
+            <button class="bg-white text-black rounded-full w-6 h-6 flex items-center justify-center">+</button>
+        </div>
+        </div>
+        <div class="bg-yellow-400 p-4">
+        <div class="h-32"></div>
+        <div class="bg-red-500 p-4 flex justify-between items-center text-white">
+            <span>Clinge Bag</span>
+            <span>₹ 1200</span>
+            <button class="bg-white text-black rounded-full w-6 h-6 flex items-center justify-center">+</button>
+        </div>
+        </div>
+        <!-- Repeat product blocks as needed -->
+    </div>
+    </div>
+</body>
+</html>
