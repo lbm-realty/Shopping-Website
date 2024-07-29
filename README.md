@@ -1,0 +1,1 @@
+Scatch Shopping Website is a comprehensive, full-stack online store where users can browse and purchase a variety of products. The application is currently developed using Node.js, Express, MongoDB, and EJS for templating. We are planning to enhance the frontend with React to provide a more dynamic and interactive user experience.
